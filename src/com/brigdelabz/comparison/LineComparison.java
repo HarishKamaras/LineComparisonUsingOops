@@ -32,5 +32,13 @@ public class LineComparison {
         } else {
             System.out.println("len1 not equals to len2");
         }
+        //UC3 Compare Two Lines
+        int compareValue = d1.compareTo(d2);
+        if (compareValue == 0)
+            System.out.println("len1 and len2 are equal");
+        else if (compareValue < 0)
+            System.out.println("len1 is less than len2");
+        else
+            System.out.println("len1 is greater than len2");
         }
     }
